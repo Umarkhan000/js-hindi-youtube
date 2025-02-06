@@ -41,3 +41,35 @@ console.log(typeof myFunction);   // To find datatype of anything then use conso
 // To read datatypes and its return type then use below link
 // https://262.ecma-international.org/5.1/#sec-11.4.3 
 
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory, Heap memory
+
+// Stack memory stores PRIMITIVE and  Heap memory stores NON-PRIMITIVE
+
+
+let myYoutubename = "umarkhan"
+
+let anothername = "myYoutubename"
+anothername = "chaiaurcode"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "umar@google.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
