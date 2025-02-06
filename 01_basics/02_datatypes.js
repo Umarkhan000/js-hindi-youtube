@@ -12,7 +12,7 @@ let state;
 // numbers => 2 to power 53
 // if the number is very big then use - bigint
 // string => mostly prefer double quotes ""
-// boolea => true/false
+// boolean => true/false
 // null => null is a standalone value
 // undefined => this means not defining anyvalue in the variale
 // symbol => this helps to find any unique thing
