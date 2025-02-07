@@ -1,4 +1,4 @@
-// To store datatypes in the memory are 2 tpes
+// To store datatypes in the memory are 2 types
 // 1. primitive 
 // 2. non primitive
 
