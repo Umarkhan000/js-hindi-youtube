@@ -28,7 +28,7 @@ const hundreds = 1000000
 // console.log(Math.max(5, 0, 2, 8, 7));
 
 // console.log(Math.random()*40);
-// console.log(Math.floor(Math.random()*40));
+// console.log(Math.floor(Math.random()*40)); // this gives the random value without any decimal
 
 
 const max = 30
