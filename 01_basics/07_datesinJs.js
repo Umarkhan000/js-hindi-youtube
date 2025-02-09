@@ -9,7 +9,7 @@ const myDate = new Date()
 
 // let  myCreatedDate = new Date(2025, 1, 8)
 let  myCreatedDate = new Date("02-08-2025")  // month-date-year
-// console.log(myCreatedDate.toDateString());
+ console.log(myCreatedDate.toDateString());
 // console.log(myCreatedDate.toLocaleString());
 
 
@@ -25,7 +25,7 @@ console.log(newDate.getMonth());
 
 // `${newDate.getDay()} and the time ` // sting interpolation
 
-newDate.toLocaleString('default'{     // internationalization
+newDate.toLocaleString('default',{    //internationalization
     weekday: "long"
 
 })
