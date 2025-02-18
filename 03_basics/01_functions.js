@@ -86,7 +86,7 @@ function returnSecondArray(getArray){
 }
 
 console.log(returnSecondArray(myNewArray));
-
+console.log(returnSecondArray([100, 200, 400, 700]));
 
 
 
