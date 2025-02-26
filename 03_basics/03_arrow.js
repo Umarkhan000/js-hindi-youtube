@@ -21,9 +21,46 @@ const user = {
 
 
 
+// function chai(){
+//     let username = "umarkhan"
+//   console.log(this.username);
+// }
+
+// chai()
 
 
 
+// const chai = function(){
+//   let username = "umarkhan"
+//   console.log(this.username);
+// }
+
+
+const chai = () => {
+  let username = "umarkhan"
+  console.log(this.username);
+}
+
+// chai()
+
+
+
+
+// ========= ARRROW FUNCTION ==========
+
+
+// const addTwo = (num1, num2) => {
+// return num1 + num2
+// }
+
+
+// const addTwo = (num1, num2) => num1 + num2
+  
+// const addTwo = (num1, num2) => (num1 + num2)
+
+const addTwo = (num1, num2) => ({username : "umarkhan"})
+
+ console.log(addTwo(9, 4));
 
 
 
